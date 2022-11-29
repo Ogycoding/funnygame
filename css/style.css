@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ad0d6b;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 10px 0 10px;
+
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 15px 0 15px;
+}
+
+.header {
+    margin: 10px 0 0 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn p {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #f9f9f9;
+}
+
+
+.play {
+    font-size: 1rem;
+    color: #82780c;
+    background-color: #f9f9f9;
+    text-transform: capitalize;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.play:hover {
+    background-color: #333;
+    color: #f9f9f9;
+    transition: all ease-in 0.2s;
+}
+
+.guess {
+    margin: 0;
+    padding: 0;
+
+}
+
+.guess-no {
+    padding: 1.3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.store p {
+    width: 20%;
+    background: #fff;
+    font-size: 4rem;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.text-area {
+    margin: 2rem 0;
+
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-area {
+    width: 50%;
+}
+
+.text {
+    width: 100px;
+    height: auto;
+    border: 2px solid #333;
+    text-align: center;
+    font-size: 3rem;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+
+.check {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #7a0404;
+    background: #96880c;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+.output {
+    padding: 10px 0;
+    width: 50%;
+    text-align: right;
+
+}
+
+.output h1 {
+    font-size: 1.4rem;
+    color: #09b1af;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+
+.output h2 {
+    font-size: 1.3rem;
+    color: #10b498;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+}
+
+.output h3 {
+    font-size: 1.3rem;
+    color: #9e9c1a;
+    text-transform: capitalize;
+}
